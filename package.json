@@ -1,0 +1,13 @@
+{
+  "name": "petes-mobile-mechanical",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Website for Pete's Mobile Mechanical Services, Guernsey",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
